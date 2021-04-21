@@ -1,8 +1,11 @@
+<?xml version="1.0"?>
 <launch>
-    <arg name="type"/>
+    <arg name="type" default="sample_capture.py"/>
     <arg name="name" default=""/>
-    <node name="zivid_camera" pkg="zivid_camera" type="zivid_camera_node" ns="zivid_camera" output="screen"/>
+    <node name="zivid_camera" pkg="zivid_camera" type="zivid_camera_node" ns="zivid_camera" output="screen">
+          <param name="frame_id" value="zivid1_camera_link" />
+    </node>
     <node name="$(arg name)" pkg="zivid_samples" type="$(arg type)" output="screen"/>
-    <node name="rqt_reconfigure" pkg="rqt_reconfigure" type="rqt_reconfigure"/>
-    <include ns="zivid_camera" file="$(find zivid_camera)/launch/visualize.launch"/>
+<!--    <node name="rqt_reconfigure" pkg="rqt_reconfigure" type="rqt_reconfigure"/>-->
+<!--    <include ns="zivid_camera" file="$(find zivid_camera)/launch/visualize.launch"/>-->
 </launch>

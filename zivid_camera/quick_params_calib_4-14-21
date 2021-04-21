@@ -1,0 +1,25 @@
+!!python/object/new:dynamic_reconfigure.encoding.Config
+dictitems:
+  aperture: 4.75
+  brightness: 1.25
+  enabled: true
+  exposure_time: 6500
+  gain: 6.75
+  groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+    dictitems:
+      aperture: 4.75
+      brightness: 1.25
+      enabled: true
+      exposure_time: 6500
+      gain: 6.75
+      groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      id: 0
+      name: Default
+      parameters: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      parent: 0
+      state: true
+      type: ''
+    state: []
+state: []

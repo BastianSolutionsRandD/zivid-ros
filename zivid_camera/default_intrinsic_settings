@@ -1,0 +1,47 @@
+!!python/object/new:dynamic_reconfigure.encoding.Config
+dictitems:
+  experimental_engine: 0
+  groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+    dictitems:
+      experimental_engine: 0
+      groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      id: 0
+      name: Default
+      parameters: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      parent: 0
+      processing_color_balance_blue: 1.29
+      processing_color_balance_green: 1.0
+      processing_color_balance_red: 1.0
+      processing_color_gamma: 1.0
+      processing_filters_experimental_contrast_distortion_correction_enabled: false
+      processing_filters_experimental_contrast_distortion_correction_strength: 0.4
+      processing_filters_experimental_contrast_distortion_removal_enabled: false
+      processing_filters_experimental_contrast_distortion_removal_threshold: 0.5
+      processing_filters_noise_removal_enabled: true
+      processing_filters_noise_removal_threshold: 7.0
+      processing_filters_outlier_removal_enabled: true
+      processing_filters_outlier_removal_threshold: 25.0
+      processing_filters_reflection_removal_enabled: true
+      processing_filters_smoothing_gaussian_enabled: false
+      processing_filters_smoothing_gaussian_sigma: 1.5
+      state: true
+      type: ''
+    state: []
+  processing_color_balance_blue: 1.29
+  processing_color_balance_green: 1.0
+  processing_color_balance_red: 1.0
+  processing_color_gamma: 1.0
+  processing_filters_experimental_contrast_distortion_correction_enabled: false
+  processing_filters_experimental_contrast_distortion_correction_strength: 0.4
+  processing_filters_experimental_contrast_distortion_removal_enabled: false
+  processing_filters_experimental_contrast_distortion_removal_threshold: 0.5
+  processing_filters_noise_removal_enabled: true
+  processing_filters_noise_removal_threshold: 7.0
+  processing_filters_outlier_removal_enabled: true
+  processing_filters_outlier_removal_threshold: 25.0
+  processing_filters_reflection_removal_enabled: true
+  processing_filters_smoothing_gaussian_enabled: false
+  processing_filters_smoothing_gaussian_sigma: 1.5
+state: []
